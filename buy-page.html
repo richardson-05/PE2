@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/buy-page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/Logo.jpg"/>
+    <title>Página de compra - Richardson Mercedes</title>
+</head>
+<body>
+    <!-- By: Richardson Mercedes -->
+    <!-- https://github.com/richardson-05/University-project -->
+    <div class="dv-green_alert" id="dv-green_alert">
+        <p>Gracias por suscibirte</p>
+    </div>
+    <main>
+        <section class="container">
+            <form action="">
+                <table>
+                    <tr>
+                        <tr>
+                            <td colspan="2">
+                                <h2>Formulario de compra</h2>
+                            </td>
+                        </tr>
+                        <td>
+                            <label for="">Nombre completo <span>*</span></label>
+                            <input type="text" id="inp-name">
+                        </td>
+                        <td>
+                            <label for="">Teléfono <span>*</span></label>
+                            <input type="text" id="inp-telephone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Correo electrónico <span>*</span></label>
+                            <input type="email" id="inp-email">
+                        </td>
+                        <td>
+                            <label for="">Tarjeta de crédito <span>*</span></label>
+                            <input type="text" id="inp-card">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">País <span>*</span></label>
+                            <select id="inp-country">
+                                <option value="null">Seleccionar</option>
+                                <option value="RD">República Dominicana</option>
+                                <option value="EU">Estados Unidos</option>
+                                <option value="ES">España</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CO">Colombia</option>
+                                <option value="VZ">Velezuela</option>
+                                <option value="AR">Argentina</option>
+                                <option value="HT">Haití</option>
+                                <option value="PA">Panamá</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="">Ciudad / Dirección <span>*</span></label>
+                            <input type="text" id="inp-address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="">Nota</label>
+                            <textarea id="inp-note"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button id="btn-confirm"><i class="fas fa-shopping-cart"></i> Comprar</button>
+                            <button id="btn-back"><i class="fas fa-long-arrow-alt-left"></i> Volver</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+    
+
+
+    <script src="./js/buy-page.js"></script>
+</body>
+</html>
